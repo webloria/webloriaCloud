@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    [data-theme="default"] {
+        /*--bg-primary: 34, 39, 46;
+		--bg-secondary: 34, 39, 46; */ 
+
+        --bg-primary:   0, 122, 191;
+        --bg-secondary: 0, 73, 114;
+        --bg-container: 0, 0, 0, 0.6;
+
+		--bg-input: 255,255,255;
+		--color-input-text: 0 0 0;
+		--color-input-placholder: 156 163 175;
+
+		--color-text: 255,255,255;
+        --color-primary: 0, 162, 255;
+		--color-danger: 255,0,0;
+        --color-success: 21, 178, 84;
+        --color-warning: 196, 138, 23;
+        --color-info: 48, 97, 175;
+    }
+}
